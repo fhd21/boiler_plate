@@ -1,0 +1,149 @@
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/G
+$ git config --global user.name fahad
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/G
+$ code.
+bash: code.: command not found
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/G
+$ code .
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/G
+$ git init
+Initialized empty Git repository in C:/Usahad/Desktop/GIT/.git/
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/Gaster)
+$ ls -lart
+total 16
+drwxr-xr-x 1 fahad 197609 0 Jun 13 07:10
+drwxr-xr-x 1 fahad 197609 0 Jun 13 07:14
+drwxr-xr-x 1 fahad 197609 0 Jun 13 07:14
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/Gaster)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and git add" to track)
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/Gaster)
+$ git add index.html
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/GIT (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/GIT (master)
+$ git commit
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'fahad@DESKTOP-S72LD5G.(none)')
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/GIT (master)
+$ git config --global user.email syedfahad3009@gmail.com
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/GIT (master)
+$ git commit
+hint: Waiting for your editor to cloAborting commit due to empty commit message.
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/GIT (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/GIT (master)
+$ touch about.html
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/GIT (master)
+$ touch contact.html
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/GIT (master)
+$ touch monumnet.html
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/GIT (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        about.html
+        contact.html
+        monumnet.html
+
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/GIT (master)
+$ git add -A
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/GIT (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   about.html
+        new file:   contact.html
+        new file:   index.html
+        new file:   monumnet.html
+
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/GIT (master)
+$ git commit -m "added more html"
+[master (root-commit) 310183f] added more html
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 about.html
+ create mode 100644 contact.html
+ create mode 100644 index.html
+ create mode 100644 monumnet.html
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/GIT (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/GIT (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/GIT (master)
+$ git checkout
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/GIT (master)
+$ git checkout contact.html
+Updated 0 paths from the index
+
+fahad@DESKTOP-S72LD5G MINGW64 ~/Desktop/GIT (master)
+$
